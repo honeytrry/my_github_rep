@@ -1,4 +1,4 @@
 ---
-layout: post
+layout: default
 ---
     希望有个地方可以记录自己成长的点点滴滴，也是自言自语的地方！
