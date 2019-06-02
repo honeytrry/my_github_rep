@@ -1,0 +1,29 @@
+.main-header {
+color: #cccccc;
+/* background image will be changed by scroll*/
+background-attachment: scroll;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+  color: #404040;
+  overflow-x: hidden;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB","Times New Roman", Times, serif;
+  font-size:30px;
+  text-align: center;
+  color: #404040;
+}
+
+.main-header div > h3 {
+  font-size:15px;
+  text-align: center;
+  color: green
+}
