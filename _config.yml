@@ -9,6 +9,7 @@ github_username:  honeytrry
 # Sidebar settings
 sidebar: true    #whether or not using siderbar
 sidebar-about-description: "just a try"
+sidebar-avatar: /image/timg.jpeg
 
 # Build settings
 markdown: kramdown

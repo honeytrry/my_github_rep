@@ -2,12 +2,12 @@
 description: Nothing is impossible
 layout: page 
 ---
-
-{% for post in paginator.posts %}
-<div class="post-preview">
-     <h2 class="post-title"><a href="{{ post.url }}"> {{ post.title }} </a></h2>
-     <div class="post-content">
-          {{ post.content }}
-     </div>
-</div>
+<ul class="">
+{% for post in site.posts %}
+     <li>
+         <h2><a href="{{ post.url }}"> {{ post.title }} </a></h2>
+         <p class="post-text"> {{ post.content }} </p>
+     </li>
 {% endfor %}
+</ul>
+

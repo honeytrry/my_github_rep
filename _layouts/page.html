@@ -8,15 +8,20 @@ layout: default
          <h1> {% if page.title %} {{ page.title}} {% else %} {{ site.title }} {% endif %} </h1>
          <h3> {{ page.description }} </h3>
     </div>
-    <div>
-         <p> this is test </p>
-    </div>
 </header>
-<div class="content">
-      {{ content }}
+<div class="container">
+    <div class="row">
+        <div class="sidebar left-layout layout-offset-0">
+            <p>Hello</p>
+            <p>Page</p>
+        </div>
+        <div class="right right-layout layout-offest-1 background-img">
+        <p class="post-content"> {{ content }} </p>
+        </div>
+    </div>
 </div>
-<footer>
-    <div class="container">
-        <p class="center-text">created by honeytrry</a></p>
+<footer class="">
+    <div class="">
+         powered by honeytrry@gmail.com
     </div>
 </footer>
