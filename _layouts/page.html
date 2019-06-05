@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- page header -->
-<header class="main-header" style="background-image: url('{{site.baseurl}}/{%if page.header-img%}{{page.header-img}}{% else %}{{ site.header-img}}{% endif %}')">
+<header class="main-header" style="background-image: url('{%if page.header-img%}{{page.header-img}}{% else %}{{ site.header-img}}{% endif %}')">
     <div>
          <h1> {% if page.title %} {{ page.title}} {% else %} {{ site.title }} {% endif %} </h1>
          <h3> {{ page.description }} </h3>
