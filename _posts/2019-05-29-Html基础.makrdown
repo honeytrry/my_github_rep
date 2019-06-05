@@ -1,7 +1,0 @@
----
-title: HTML基础
-layout: default
-category: web
----
-
-    &lt;head&gt; 与&lt;header&gt;的区别，&lt;head&gt;定义网页的元数据，通常不可显示，例如编码方式。而&lt;header&gt;是页面显示的一部分，通常指页眉。如&lt;div class="head"&gt;在HTML5中用&lt;header&gt;代替，基中定义的内容会在页面上呈现。
