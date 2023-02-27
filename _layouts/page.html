@@ -1,27 +1,14 @@
 ---
 layout: default
 ---
+<div class="post">
 
-<!-- page header -->
-<header class="main-header" style="background-image: url('{%if page.header-img%}{{page.header-img}}{% else %}{{ site.header-img}}{% endif %}')">
-    <div>
-         <h1> {% if page.title %} {{ page.title}} {% else %} {{ site.title }} {% endif %} </h1>
-         <h3> {{ page.description }} </h3>
-    </div>
-</header>
-<div class="container">
-    <div class="row">
-        <div class="sidebar left-layout layout-offset-0">
-            <p>Hello</p>
-            <p>Page</p>
-        </div>
-        <div class="right right-layout layout-offest-1 background-img">
-        <p class="post-content"> {{ content }} </p>
-        </div>
-    </div>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+  <br>
+  <article class="post-content">
+    {{ content }}
+  </article>
+
 </div>
-<footer class="">
-    <div class="">
-         powered by honeytrry@gmail.com
-    </div>
-</footer>

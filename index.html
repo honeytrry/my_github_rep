@@ -1,13 +1,22 @@
 ---
-description: Nothing is impossible
-layout: page 
+layout: default
 ---
-<ul class="">
-{% for post in site.posts %}
-     <li>
-         <h2><a href="{{ post.url }}"> {{ post.title }} </a></h2>
-         <p class="post-text"> {{ post.content }} </p>
-     </li>
-{% endfor %}
-</ul>
 
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <br>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y %H:%m" }}</span>
+        <hr id="line">
+		<div class="content">
+		{{ post.excerpt }}
+        </div>
+		<br>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
